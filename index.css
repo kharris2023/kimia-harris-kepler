@@ -1,0 +1,57 @@
+body {
+  background-color: blanchedalmond;
+  color: rgb(20, 6, 6);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+}
+
+img {
+  width: 380px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px 50px;
+}
+
+h2 {
+  margin: 20px;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: 35px;
+  color: darkblue;
+}
+
+p {
+  margin-left: 30px;
+}
+
+#Experience li {
+  background-color: #f0f0f0;
+  padding: 10px 15px;
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+#Connect li {
+  list-style-type: none;
+  text-align: center;
+}
+
+a {
+  font-weight: 20px;
+  background: rgb(186, 213, 218);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#Connect h2 {
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 20px;
+}
