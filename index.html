@@ -4,9 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kimia Harris Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <header>
+      <nav>
+        <a href="#About">About</a>
+        <a href="#Experience">Experience</a>
+        <a href="#Connect">Connect</a>
+      </nav>
+    </header>
+
     <h1>Kimia Harris</h1>
+
+    <img src="software-dev-cpu.jpg" alt="Illustration of code on CPU" />
 
     <section id="About">
       <h2>About</h2>
@@ -22,14 +33,53 @@
       </p>
     </section>
 
-    <section id="Experience">
-      <h2>Experience</h2>
-      <ul>
-        <li>UPLC Experience</li>
-        <li>Familiarity with HTML/CSS</li>
-        <li>Javascript beginner</li>
-        <li>Microsoft proficient</li>
+    <section id="experience">
+      <h2 class="header">Experience</h2>
+      <ul id="experience-list">
+        <div class="experience-item">
+          <div class="title-date">
+            <p class="job-title">QC Chemist II</p>
+            <p class="date">Mar 2017 - Present</p>
+          </div>
+          <div class="description">
+            <p>
+              Responsible ensuring the quality and safety of products through
+              various laboratory testing.
+            </p>
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <div class="title-date">
+            <p class="job-title">QC Associate Scientist</p>
+            <p class="date">Nov 2015 - Mar 2017</p>
+          </div>
+          <div class="description">
+            <p>
+              Performed various raw material test procedures, managed lab
+              storage areas, and maintained the QC Chemistry database.
+            </p>
+          </div>
+        </div>
+        <div class="experience-item">
+          <div class="title-date">
+            <p class="job-title">W3 Schools Student</p>
+            <p class="date">Sep 2023 - Dec 2023</p>
+          </div>
+          <div class="description">
+            <p>Learned beginner Javascript, HTML, and CSS</p>
+          </div>
+        </div>
       </ul>
+    </section>
+
+    <section id="Skills">
+      <h2>Skills</h2>
+    </section>
+
+    <section id="Projects">
+      <h2>Projects</h2>
+      <ul></ul>
     </section>
 
     <section id="Connect">

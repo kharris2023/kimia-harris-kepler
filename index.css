@@ -30,16 +30,23 @@ p {
   margin-left: 30px;
 }
 
-#Experience li {
-  background-color: #f0f0f0;
-  padding: 10px 15px;
-  margin: 10px 0;
-  font-weight: 500;
+#Connect h2 {
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 20px;
 }
 
 #Connect li {
   list-style-type: none;
   text-align: center;
+}
+
+#Connect > ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 2.5em;
 }
 
 a {
@@ -49,9 +56,39 @@ a {
   font-weight: bold;
 }
 
-#Connect h2 {
-  color: black;
-  text-align: center;
-  padding-top: 50px;
-  font-size: 20px;
+/*Experience Section Styling */
+
+.title-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.job-title {
+  font-weight: bold;
+}
+
+.description {
+  font-style: italic;
+  margin-top: 0;
+}
+
+.experience-item {
+  margin-bottom: 50px;
+}
+
+.job-title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.date {
+  font-size: 1em;
+  color: gray;
+}
+
+#experience-list {
+  background-color: rgb(212, 190, 159);
+  margin: 20px;
+  padding: 18px;
+  border-radius: 50px;
 }
